@@ -16,14 +16,14 @@ export class UsersUtil {
   client: DynamoDBClient;
   documentClient: AWS.DynamoDB.DocumentClient;
   options: {
-    region: "us-east-1";
+    region: "ap-southeast-1";
     endpoint: "http://localhost:8000";
-    accessKey: "mytestkeyid";
+    accessKey: "AKIA3ALU67EOOENKFP6Q";
   };
 
   constructor() {
     this.client = new DynamoDBClient({
-      region: "us-east-1",
+      region: "ap-southeast-1",
       endpoint: "http://localhost:8000",
     });
     // let exist: boolean = false;

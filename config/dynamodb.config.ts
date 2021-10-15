@@ -2,7 +2,7 @@ export const dynamodb = {
   stages: ["dev"],
   start: {
     port: 8000,
-    inMemory: false,
+    inMemory: true,
     sharedDb: true,
     heapInitial: "200m",
     heapMax: "1g",
